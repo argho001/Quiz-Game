@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+#body2{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: auto;
+    height: 650px;
+    background-image: url(bgpic.jpg);
+    
+}
+#allContainer{
+   max-width: 900px;
+    max-width: 700px;
+    width: 90%;
+    height: auto;  
+    background: #d9d3c0;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px black;
+    text-align: center;
+    
+}
+#imageContainer{
+    padding-top: 5%;
+    
+}
+
+
+#addImageButton{
+    margin-top: 20%;
+    padding: 20px;
+    border-radius: 7px;
+   
+}
+#addImageButton:hover{
+  
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 2px solid #0e0b0b;
+    background-color: #85ef48;
+   
+
+}
+
+
+#imageContainer img{
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 2px 1.5px black;
+    
+}
+
+
+
+#imageContainer img:hover {
+    opacity: 1; /* Reduce opacity on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: 1px solid #020202; 
+    
+}
+
+/* CSS for the selected image */
+#imageContainer img.selected {
+    border: 3px solid #4d17ff; /* Add a red border to the selected image */
+}
+
+#heading1{
+    color: rgb(196, 21, 21);
+}
+#next_but{
+    margin: 10px;
+    padding: 4px;
+}
+
+#questions{
+    height: auto;
+    max-width: 100%;
+    width: auto;
+    background-color:#d9d3c0;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    
+    border-radius: 5px;
+    
+}
+#Ans{
+    
+    color: green;
+    width: 100%;
+    padding-left: 5%;
+    margin-left: 45%;
+}
+#Ans2{
+    color: red;
+    width: 100%;
+    padding-left: 5%;
+    margin-left: 45%;
+}
+
+
+#score{
+  
+    margin-top: 3%;
+    margin-left: -50%;
+   
+}
+.Ans_class{
+   max-width: fit-content;
+   
+}
+#Ans_image2 img{
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 4px;
+   margin-left: 80%;
+    box-shadow: 2px 1.5px black;
+}
